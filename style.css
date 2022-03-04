@@ -1,0 +1,67 @@
+/*style.css*/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cbd5e1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+  border: 1px dotted black;
+}
+
+#newBtn {
+  margin-top: 10px;
+}
+
+input {
+  padding: 5px;
+  margin: 2px;
+}
+
+#popUp {
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  border-left: 8px #1e293b solid;
+  margin-top: 20px;
+}
+
+#todo-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 20px;
+  border-left: 8px #1e293b solid;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.todo {
+  padding: 10px;
+  margin: 5px;
+}
+
+.title {
+  margin-bottom: 5px;
+}

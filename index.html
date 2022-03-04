@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>To Do List</h1>
+    <div id="newBtn-Container">
+      <button id="newBtn">New To Do</button>
+    </div>
+    <div id="popUp">
+      <form id="form" name="form" action="">
+        <legend><span class="close">&times;</span></legend>
+        <div id="textInput">
+          <p>
+            <input type="text" id="title" name="title" placeholder="to do" />
+          </p>
+        </div>
+        <div id="checkBox">
+          <p>
+            <label>Complete: </label
+            ><input type="checkbox" id="complete" name="complete" value="no" />
+          </p>
+        </div>
+        <button type="submit" form="form" id="addBtn">Add</button>
+      </form>
+    </div>
+    <div id="todo-container"></div>
+  </body>
+</html>
